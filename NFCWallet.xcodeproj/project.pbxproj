@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA053CDE2AB644F20019FAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA053CDD2AB644F20019FAD1 /* AppDelegate.swift */; };
+		CA053CE02AB644F20019FAD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA053CDF2AB644F20019FAD1 /* SceneDelegate.swift */; };
+		CA053CE22AB644F20019FAD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA053CE12AB644F20019FAD1 /* ViewController.swift */; };
+		CA053CE52AB644F20019FAD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA053CE32AB644F20019FAD1 /* Main.storyboard */; };
+		CA053CE82AB644F20019FAD1 /* NFCWallet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA053CE62AB644F20019FAD1 /* NFCWallet.xcdatamodeld */; };
+		CA053CEA2AB644F30019FAD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA053CE92AB644F30019FAD1 /* Assets.xcassets */; };
+		CA053CED2AB644F30019FAD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA053CEB2AB644F30019FAD1 /* LaunchScreen.storyboard */; };
+		CA053CF82AB644F30019FAD1 /* NFCWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA053CF72AB644F30019FAD1 /* NFCWalletTests.swift */; };
+		CA053D022AB644F30019FAD1 /* NFCWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA053D012AB644F30019FAD1 /* NFCWalletUITests.swift */; };
+		CA053D042AB644F30019FAD1 /* NFCWalletUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA053D032AB644F30019FAD1 /* NFCWalletUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA053CF42AB644F30019FAD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA053CD22AB644F20019FAD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA053CD92AB644F20019FAD1;
+			remoteInfo = NFCWallet;
+		};
+		CA053CFE2AB644F30019FAD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA053CD22AB644F20019FAD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA053CD92AB644F20019FAD1;
+			remoteInfo = NFCWallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA053CDA2AB644F20019FAD1 /* NFCWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFCWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA053CDD2AB644F20019FAD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA053CDF2AB644F20019FAD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CA053CE12AB644F20019FAD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA053CE42AB644F20019FAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA053CE72AB644F20019FAD1 /* NFCWallet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NFCWallet.xcdatamodel; sourceTree = "<group>"; };
+		CA053CE92AB644F30019FAD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA053CEC2AB644F30019FAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA053CEE2AB644F30019FAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA053CF32AB644F30019FAD1 /* NFCWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFCWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA053CF72AB644F30019FAD1 /* NFCWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCWalletTests.swift; sourceTree = "<group>"; };
+		CA053CFD2AB644F30019FAD1 /* NFCWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFCWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA053D012AB644F30019FAD1 /* NFCWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCWalletUITests.swift; sourceTree = "<group>"; };
+		CA053D032AB644F30019FAD1 /* NFCWalletUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCWalletUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA053CD72AB644F20019FAD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA053CF02AB644F30019FAD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA053CFA2AB644F30019FAD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA053CD12AB644F20019FAD1 = {
+			isa = PBXGroup;
+			children = (
+				CA053CDC2AB644F20019FAD1 /* NFCWallet */,
+				CA053CF62AB644F30019FAD1 /* NFCWalletTests */,
+				CA053D002AB644F30019FAD1 /* NFCWalletUITests */,
+				CA053CDB2AB644F20019FAD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA053CDB2AB644F20019FAD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA053CDA2AB644F20019FAD1 /* NFCWallet.app */,
+				CA053CF32AB644F30019FAD1 /* NFCWalletTests.xctest */,
+				CA053CFD2AB644F30019FAD1 /* NFCWalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA053CDC2AB644F20019FAD1 /* NFCWallet */ = {
+			isa = PBXGroup;
+			children = (
+				CA053D102AB6452A0019FAD1 /* BusinessLogicLayer */,
+				CA053D112AB6454F0019FAD1 /* UILayer */,
+				CA053D122AB645560019FAD1 /* ServiceLayer */,
+				CA053D132AB6455C0019FAD1 /* StorageLayer */,
+				CA053CDD2AB644F20019FAD1 /* AppDelegate.swift */,
+				CA053CDF2AB644F20019FAD1 /* SceneDelegate.swift */,
+				CA053CE92AB644F30019FAD1 /* Assets.xcassets */,
+				CA053CEE2AB644F30019FAD1 /* Info.plist */,
+				CA053CE62AB644F20019FAD1 /* NFCWallet.xcdatamodeld */,
+			);
+			path = NFCWallet;
+			sourceTree = "<group>";
+		};
+		CA053CF62AB644F30019FAD1 /* NFCWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA053CF72AB644F30019FAD1 /* NFCWalletTests.swift */,
+			);
+			path = NFCWalletTests;
+			sourceTree = "<group>";
+		};
+		CA053D002AB644F30019FAD1 /* NFCWalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA053D012AB644F30019FAD1 /* NFCWalletUITests.swift */,
+				CA053D032AB644F30019FAD1 /* NFCWalletUITestsLaunchTests.swift */,
+			);
+			path = NFCWalletUITests;
+			sourceTree = "<group>";
+		};
+		CA053D102AB6452A0019FAD1 /* BusinessLogicLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BusinessLogicLayer;
+			sourceTree = "<group>";
+		};
+		CA053D112AB6454F0019FAD1 /* UILayer */ = {
+			isa = PBXGroup;
+			children = (
+				CA053D152AB645820019FAD1 /* Storyboards */,
+				CA053D142AB645720019FAD1 /* ViewControllers */,
+			);
+			path = UILayer;
+			sourceTree = "<group>";
+		};
+		CA053D122AB645560019FAD1 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		CA053D132AB6455C0019FAD1 /* StorageLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StorageLayer;
+			sourceTree = "<group>";
+		};
+		CA053D142AB645720019FAD1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CA053CE12AB644F20019FAD1 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CA053D152AB645820019FAD1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CA053CE32AB644F20019FAD1 /* Main.storyboard */,
+				CA053CEB2AB644F30019FAD1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA053CD92AB644F20019FAD1 /* NFCWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA053D072AB644F30019FAD1 /* Build configuration list for PBXNativeTarget "NFCWallet" */;
+			buildPhases = (
+				CA053CD62AB644F20019FAD1 /* Sources */,
+				CA053CD72AB644F20019FAD1 /* Frameworks */,
+				CA053CD82AB644F20019FAD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFCWallet;
+			productName = NFCWallet;
+			productReference = CA053CDA2AB644F20019FAD1 /* NFCWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA053CF22AB644F30019FAD1 /* NFCWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA053D0A2AB644F30019FAD1 /* Build configuration list for PBXNativeTarget "NFCWalletTests" */;
+			buildPhases = (
+				CA053CEF2AB644F30019FAD1 /* Sources */,
+				CA053CF02AB644F30019FAD1 /* Frameworks */,
+				CA053CF12AB644F30019FAD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA053CF52AB644F30019FAD1 /* PBXTargetDependency */,
+			);
+			name = NFCWalletTests;
+			productName = NFCWalletTests;
+			productReference = CA053CF32AB644F30019FAD1 /* NFCWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA053CFC2AB644F30019FAD1 /* NFCWalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA053D0D2AB644F30019FAD1 /* Build configuration list for PBXNativeTarget "NFCWalletUITests" */;
+			buildPhases = (
+				CA053CF92AB644F30019FAD1 /* Sources */,
+				CA053CFA2AB644F30019FAD1 /* Frameworks */,
+				CA053CFB2AB644F30019FAD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA053CFF2AB644F30019FAD1 /* PBXTargetDependency */,
+			);
+			name = NFCWalletUITests;
+			productName = NFCWalletUITests;
+			productReference = CA053CFD2AB644F30019FAD1 /* NFCWalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA053CD22AB644F20019FAD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CA053CD92AB644F20019FAD1 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CA053CF22AB644F30019FAD1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CA053CD92AB644F20019FAD1;
+					};
+					CA053CFC2AB644F30019FAD1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CA053CD92AB644F20019FAD1;
+					};
+				};
+			};
+			buildConfigurationList = CA053CD52AB644F20019FAD1 /* Build configuration list for PBXProject "NFCWallet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA053CD12AB644F20019FAD1;
+			productRefGroup = CA053CDB2AB644F20019FAD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA053CD92AB644F20019FAD1 /* NFCWallet */,
+				CA053CF22AB644F30019FAD1 /* NFCWalletTests */,
+				CA053CFC2AB644F30019FAD1 /* NFCWalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA053CD82AB644F20019FAD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA053CED2AB644F30019FAD1 /* LaunchScreen.storyboard in Resources */,
+				CA053CEA2AB644F30019FAD1 /* Assets.xcassets in Resources */,
+				CA053CE52AB644F20019FAD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA053CF12AB644F30019FAD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA053CFB2AB644F30019FAD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA053CD62AB644F20019FAD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA053CE22AB644F20019FAD1 /* ViewController.swift in Sources */,
+				CA053CDE2AB644F20019FAD1 /* AppDelegate.swift in Sources */,
+				CA053CE82AB644F20019FAD1 /* NFCWallet.xcdatamodeld in Sources */,
+				CA053CE02AB644F20019FAD1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA053CEF2AB644F30019FAD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA053CF82AB644F30019FAD1 /* NFCWalletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA053CF92AB644F30019FAD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA053D022AB644F30019FAD1 /* NFCWalletUITests.swift in Sources */,
+				CA053D042AB644F30019FAD1 /* NFCWalletUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA053CF52AB644F30019FAD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA053CD92AB644F20019FAD1 /* NFCWallet */;
+			targetProxy = CA053CF42AB644F30019FAD1 /* PBXContainerItemProxy */;
+		};
+		CA053CFF2AB644F30019FAD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA053CD92AB644F20019FAD1 /* NFCWallet */;
+			targetProxy = CA053CFE2AB644F30019FAD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA053CE32AB644F20019FAD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA053CE42AB644F20019FAD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA053CEB2AB644F30019FAD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA053CEC2AB644F30019FAD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA053D052AB644F30019FAD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA053D062AB644F30019FAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA053D082AB644F30019FAD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9258H7N9X2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NFCWallet/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "NFC Wallet";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranhajiyev.NFCWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA053D092AB644F30019FAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9258H7N9X2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NFCWallet/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "NFC Wallet";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranhajiyev.NFCWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA053D0B2AB644F30019FAD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9258H7N9X2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranhajiyev.NFCWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFCWallet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NFCWallet";
+			};
+			name = Debug;
+		};
+		CA053D0C2AB644F30019FAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9258H7N9X2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranhajiyev.NFCWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFCWallet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NFCWallet";
+			};
+			name = Release;
+		};
+		CA053D0E2AB644F30019FAD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9258H7N9X2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranhajiyev.NFCWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NFCWallet;
+			};
+			name = Debug;
+		};
+		CA053D0F2AB644F30019FAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9258H7N9X2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranhajiyev.NFCWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NFCWallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA053CD52AB644F20019FAD1 /* Build configuration list for PBXProject "NFCWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA053D052AB644F30019FAD1 /* Debug */,
+				CA053D062AB644F30019FAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA053D072AB644F30019FAD1 /* Build configuration list for PBXNativeTarget "NFCWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA053D082AB644F30019FAD1 /* Debug */,
+				CA053D092AB644F30019FAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA053D0A2AB644F30019FAD1 /* Build configuration list for PBXNativeTarget "NFCWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA053D0B2AB644F30019FAD1 /* Debug */,
+				CA053D0C2AB644F30019FAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA053D0D2AB644F30019FAD1 /* Build configuration list for PBXNativeTarget "NFCWalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA053D0E2AB644F30019FAD1 /* Debug */,
+				CA053D0F2AB644F30019FAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA053CE62AB644F20019FAD1 /* NFCWallet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA053CE72AB644F20019FAD1 /* NFCWallet.xcdatamodel */,
+			);
+			currentVersion = CA053CE72AB644F20019FAD1 /* NFCWallet.xcdatamodel */;
+			path = NFCWallet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CA053CD22AB644F20019FAD1 /* Project object */;
+}
