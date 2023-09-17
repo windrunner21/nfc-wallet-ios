@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		CA053CDE2AB644F20019FAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA053CDD2AB644F20019FAD1 /* AppDelegate.swift */; };
 		CA053CE02AB644F20019FAD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA053CDF2AB644F20019FAD1 /* SceneDelegate.swift */; };
-		CA053CE22AB644F20019FAD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA053CE12AB644F20019FAD1 /* ViewController.swift */; };
-		CA053CE52AB644F20019FAD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA053CE32AB644F20019FAD1 /* Main.storyboard */; };
+		CA053CE22AB644F20019FAD1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA053CE12AB644F20019FAD1 /* HomeViewController.swift */; };
 		CA053CE82AB644F20019FAD1 /* NFCWallet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA053CE62AB644F20019FAD1 /* NFCWallet.xcdatamodeld */; };
 		CA053CEA2AB644F30019FAD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA053CE92AB644F30019FAD1 /* Assets.xcassets */; };
 		CA053CED2AB644F30019FAD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA053CEB2AB644F30019FAD1 /* LaunchScreen.storyboard */; };
 		CA053CF82AB644F30019FAD1 /* NFCWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA053CF72AB644F30019FAD1 /* NFCWalletTests.swift */; };
 		CA053D022AB644F30019FAD1 /* NFCWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA053D012AB644F30019FAD1 /* NFCWalletUITests.swift */; };
 		CA053D042AB644F30019FAD1 /* NFCWalletUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA053D032AB644F30019FAD1 /* NFCWalletUITestsLaunchTests.swift */; };
+		CA053D172AB6462B0019FAD1 /* NFCReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA053D162AB6462B0019FAD1 /* NFCReader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +40,7 @@
 		CA053CDA2AB644F20019FAD1 /* NFCWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFCWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA053CDD2AB644F20019FAD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA053CDF2AB644F20019FAD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CA053CE12AB644F20019FAD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CA053CE42AB644F20019FAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA053CE12AB644F20019FAD1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CA053CE72AB644F20019FAD1 /* NFCWallet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NFCWallet.xcdatamodel; sourceTree = "<group>"; };
 		CA053CE92AB644F30019FAD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA053CEC2AB644F30019FAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		CA053CFD2AB644F30019FAD1 /* NFCWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFCWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA053D012AB644F30019FAD1 /* NFCWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCWalletUITests.swift; sourceTree = "<group>"; };
 		CA053D032AB644F30019FAD1 /* NFCWalletUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCWalletUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA053D162AB6462B0019FAD1 /* NFCReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCReader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +134,7 @@
 		CA053D102AB6452A0019FAD1 /* BusinessLogicLayer */ = {
 			isa = PBXGroup;
 			children = (
+				CA053D162AB6462B0019FAD1 /* NFCReader.swift */,
 			);
 			path = BusinessLogicLayer;
 			sourceTree = "<group>";
@@ -164,7 +165,7 @@
 		CA053D142AB645720019FAD1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				CA053CE12AB644F20019FAD1 /* ViewController.swift */,
+				CA053CE12AB644F20019FAD1 /* HomeViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -172,7 +173,6 @@
 		CA053D152AB645820019FAD1 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				CA053CE32AB644F20019FAD1 /* Main.storyboard */,
 				CA053CEB2AB644F30019FAD1 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -284,7 +284,6 @@
 			files = (
 				CA053CED2AB644F30019FAD1 /* LaunchScreen.storyboard in Resources */,
 				CA053CEA2AB644F30019FAD1 /* Assets.xcassets in Resources */,
-				CA053CE52AB644F20019FAD1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,9 +308,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA053CE22AB644F20019FAD1 /* ViewController.swift in Sources */,
+				CA053CE22AB644F20019FAD1 /* HomeViewController.swift in Sources */,
 				CA053CDE2AB644F20019FAD1 /* AppDelegate.swift in Sources */,
 				CA053CE82AB644F20019FAD1 /* NFCWallet.xcdatamodeld in Sources */,
+				CA053D172AB6462B0019FAD1 /* NFCReader.swift in Sources */,
 				CA053CE02AB644F20019FAD1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,14 +349,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CA053CE32AB644F20019FAD1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA053CE42AB644F20019FAD1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CA053CEB2AB644F30019FAD1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -495,7 +487,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "NFC Wallet";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -524,7 +515,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "NFC Wallet";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
