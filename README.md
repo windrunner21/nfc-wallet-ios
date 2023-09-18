@@ -5,8 +5,8 @@ Trying to create NFC Wallet (Open-Source).
 Added support for NDFE Reader and Tag Reader.
 
 * Successfully connected to trasportation NFC card. Type MiFare. ✅
-* Failed to read access-control NFC cards ❌
-* Failed to read national identification NFC card ❌
+* Failed to read access-control NFC cards. ❌
+* Failed to read national identification NFC card. ❌
 
 ## Contribution
 
